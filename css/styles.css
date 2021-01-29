@@ -8,7 +8,6 @@
 }
 
 #testimonials {
-  padding: 7% 15%;
   text-align: center;
   background-color: #EF8172;
   color: #FFF;
@@ -97,12 +96,14 @@ body {
   color: #FF4c68;
 }
 
-.testimonials-image {
+.testimonial-image {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
 }
-
+.carousel-item {
+  padding: 7% 15%;
+}
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
