@@ -5,6 +5,8 @@
 
 #features {
   padding: 7% 15%;
+  background-color: #FFF;
+  position: relative;
 }
 
 #testimonials {
@@ -17,6 +19,11 @@
   background-color: #EF8172;
   text-align: center;
   padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
 }
 
 h1 {
@@ -45,7 +52,7 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 /* Navigation Bar */
@@ -71,10 +78,14 @@ body {
 .download-button {
   margin: 5% 3% 5% 0;
 }
+
  /* Title Image */
  .title-img {
-   width: 60%;
-   transform: rotateZ(20deg);
+   width: 20%;
+   transform: rotate(20deg);
+   position: absolute;
+   right: 25%;
+
  }
 
  /* Section dos */
@@ -101,10 +112,16 @@ body {
   border-radius: 100%;
   margin: 20px;
 }
+
 .carousel-item {
   padding: 7% 15%;
 }
+
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
 }
