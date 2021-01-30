@@ -108,20 +108,16 @@ h1, h2, h3, h4, h5, h6 {
    margin: 20px 20px 50px;
  }
 
-
 /* Pricing Section */
 #pricing {
   padding: 100px;
 }
-
  .pricing-head {
    font-size: 2rem;
  }
-
  .pricing-price {
    font-size: 1.5rem;
  }
-
  .pricing-column {
    padding: 3% 2%;
  }
@@ -132,6 +128,7 @@ h1, h2, h3, h4, h5, h6 {
  .foot-icons {
    margin: 20px 10px;
  }
+
  /* Media Calls */
  @media (max-width: 1028px) {
    #title {
